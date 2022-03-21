@@ -1,11 +1,1 @@
-import {atom} from 'recoil';
-
-export interface IToDo {
-  text: string;
-  id: number;
-  category: 'TO_DO' | 'In_Progress' | 'Completed';
-}
-export const toDoState = atom<IToDo[]>({
-  key: 'toDo',
-  default: [],
-});
+import {atom, selector} from 'recoil';
