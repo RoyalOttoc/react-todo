@@ -19,7 +19,7 @@ const Title = styled.h1`
   text-align: center;
   font-weight: 600;
   margin-bottom: 10px;
-  font-size: 24px;
+  font-size: 36px;
 `;
 
 const Description = styled.span`
@@ -131,7 +131,7 @@ function App() {
   return (
     <DragDropContext onDragEnd={onDragEnd}>
       <Container>
-        <Title>To-Do</Title>
+        <Title>To-Do App</Title>
         <Description>
           Use this template to keep track of everyday, granular to-do items.
         </Description>
